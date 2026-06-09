@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mojdoplnok" name="Môj Video Doplnok" version="1.0.0" provider-name="Autor">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="sk">Sleduj seriály a filmy</summary>
+        <description lang="sk">Jednoduchý doplnok na sledovanie seriálu Vikingovia a informácií o filmoch.</description>
+    </extension>
+</addon>
+
+
